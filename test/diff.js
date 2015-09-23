@@ -17,6 +17,8 @@ describe('diff', () => {
     assert.deepEqual(computeDiff(4, {x: 1}), {x: 1});
     assert.equal(computeDiff({x: 1}, 5), 5);
     assert.equal(computeDiff({x: 1}, undefined), null);
+    assert.equal(computeDiff([1], [1]), undefined);
+    assert.deepEqual(computeDiff([1], [2]), [2]);
   });
 
   it('should compute object diffs', () => {

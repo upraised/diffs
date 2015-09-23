@@ -1,3 +1,6 @@
+
+import isEqual from 'lodash/lang/isEqual';
+
 function applyDiff (val0, diff) {
   if (diff === null) {
     return undefined;
@@ -76,7 +79,7 @@ function computeDiff (val0, val1) {
     } else {
       return undefined;
     }
-  } else if (val1 === val0) {
+  } else if (isEqual(val1, val0)) {
     return undefined;
   } else if (val1 === undefined || val1 === '') {
     return null;

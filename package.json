@@ -1,6 +1,6 @@
 {
   "name": "@jmathews/diffs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Diff objects",
   "engine": {
     "iojs": "3.0.x",
@@ -31,5 +31,8 @@
     "gulp-eslint": "^0.15.0",
     "gulp-mocha": "^2.1.3",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
   }
 }
