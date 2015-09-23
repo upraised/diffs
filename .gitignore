@@ -1,0 +1,15 @@
+node_modules
+*.sock
+.bower-cache/*
+bower_components/
+.DS_Store
+npm-debug.log
+
+dist
+
+public/css
+public/js/vendor.js
+public/js/vendor.bundle.js
+public/js/bundle.js
+public/fonts/fontawesome*
+public/fonts/Fontawesome*
