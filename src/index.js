@@ -4,6 +4,8 @@ import isEqual from 'lodash/lang/isEqual';
 function applyDiff (val0, diff) {
   if (diff === null) {
     return undefined;
+  } else if (diff === undefined) {
+    return val0;
   } else if (typeof diff === 'object' && !Array.isArray(diff)) {
     if (diff._set !== undefined) {
       return diff._set;

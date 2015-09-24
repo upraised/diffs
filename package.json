@@ -1,6 +1,6 @@
 {
   "name": "@jmathews/diffs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Diff objects",
   "engine": {
     "iojs": "3.0.x",
